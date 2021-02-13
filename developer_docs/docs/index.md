@@ -2,8 +2,8 @@
 
 ***Alaska Satellite Facility's OpenSARlab***
 
-OpenSARlab is a deployable service that creates a scalable Kubernetes cluster in Amazon AWS, running JupyterHub. Users
-have access to customizable environments running JupyterLab and authenticated accounts with persistent storage.
+OpenSARlab is a deployable service that creates an autoscaling Kubernetes cluster in Amazon AWS, running JupyterHub. 
+Users have access to customizable environments running JupyterLab and authenticated accounts with persistent storage.
 
 OpenSARlab addresses the following issues common to teaching and developing SAR data science techniques, especially in
  a collaborative setting:
@@ -35,4 +35,4 @@ Take our publicly accessible codebase and create your own, self-managed deployme
 
 ## Contact Us
 
-Have questions, suggestions, or need advice? We would love to hear from you! [Send an email]()
+Have questions, suggestions, or need advice? We would love to hear from you! [Send an email]() #TODO address?

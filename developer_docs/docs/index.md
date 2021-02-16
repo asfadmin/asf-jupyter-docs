@@ -2,8 +2,7 @@
 
 ***Alaska Satellite Facility's OpenSARlab***
 
-OpenSARlab is a deployable service that creates an autoscaling Kubernetes cluster in Amazon AWS, running JupyterHub. 
-Users have access to customizable environments running JupyterLab and authenticated accounts with persistent storage.
+OpenSARlab is a service providing users with persistent, customizable computing environments. It insures that groups of scientists and students have access to identical environments, containing the same software, running on the same hardware. It operates in the cloud, which means anyone with a moderately reliable internet connection can access their development environment. OpenSARlab sits alongside ASF's data archives in AWS, allowing for low latency transfer of large data products.
 
 OpenSARlab addresses the following issues common to teaching and developing SAR data science techniques, especially in
  a collaborative setting:
@@ -14,13 +13,11 @@ OpenSARlab addresses the following issues common to teaching and developing SAR 
 * SAR data products are often quite large, which leads to slow, expensive data transfers
 * SAR scientists with limited resources may lack access to the hardware required for analysis
 
-OpenSARlab insures that groups of scientists or students have access to identical environments, containing the same
-software and running on the same hardware. It runs in the cloud, which means that anyone with a moderately reliable 
-internet connection can access their development environment. OpenSARlab sits alongside ASF's data archives in AWS, 
-allowing for low latency transfer of large data data products.
+OpenSARlab is a deployable service that creates an autoscaling Kubernetes cluster in Amazon AWS, running JupyterHub. 
+Users have access to customizable environments running JupyterLab via authenticated accounts with persistent storage.
 
-While OpenSARlab was designed with SAR data science in mind, it is not limited to this field. Any group software 
-development scenario involving large datasets stored in AWS and/or the need for complicated development environments
+While OpenSARlab was designed with SAR data science in mind, it is not limited to this field. Any group 
+development scenario involving large datasets and/or the need for complicated development environments
 can benefit from working in an OpenSARlab deployment. 
 
 ## How to Access OpenSARlab

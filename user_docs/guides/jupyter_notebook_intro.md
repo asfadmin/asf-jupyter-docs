@@ -25,7 +25,7 @@ Markdown cells contain documentation in Markdown, HTML, and/or Latex. They may c
 |:-------------:|
 | *A run markdown cell* |
  
- ### Code Cells
+### Code Cells
  Code cells contain editable, runnable Python code. You  can run them in any order, any number of times.
  
  The ability to run and rerun code cells in arbitrary order can be helpful but can also cause  problems. For instance, recycled variables can end up with unexpected values if cells are

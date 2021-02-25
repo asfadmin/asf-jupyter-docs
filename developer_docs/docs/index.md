@@ -18,7 +18,17 @@ Users have access to customizable environments running JupyterLab via authentica
 
 While OpenSARlab was designed with SAR data science in mind, it is not limited to this field. Any group 
 development scenario involving large datasets and/or the need for complicated development environments
-can benefit from working in an OpenSARlab deployment. 
+can benefit from working in an OpenSARlab deployment.
+
+## How is OpenSARlab different from Binder?
+
+- Persistent, authenticated user accounts
+- User group management 
+- Persistent user storage
+    - Cost reducing storage management features
+- Customizable server resources (pick your EC2 size)
+- Deployable to other AWS accounts
+- Developer defined server timeouts (not restricted to 10 minutes of inactivity)
 
 ## How to Access OpenSARlab
 

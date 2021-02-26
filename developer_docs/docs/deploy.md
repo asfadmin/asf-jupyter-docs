@@ -271,6 +271,32 @@
 1. Check the tag's selection box
 1. Click the "Activate" button
 
+## Step 16 - Add the cost_tag to you Kubernetes Cluster
+
+1. Navigate to AWS EKS
+1. Select "Clusters" from the sidebar menu
+1. Select your deployment's cluster
+1. Select the "Tags" tab
+1. CLick the "Manage tags" button
+1. Click the "Add tag" button
+1. Enter your cost_tag key as the tag key
+1. Enter the name of the cluster as the tag value
+1. Click the "Add tag"
+1. Click the "Save changes" button
+1. You must refresh the page to see your added tag
+
+## Step 17 - (optional) Authorize your user to access the AWS EKS Console
+This will allow access to the EKS console, which gives you much of the same information as kubectl, but in a more user friendly manner.
+
+1. Run "kubectl edit cm aws-auth -n kube-system" from a local terminal
+1. Edit the "data" section of aws-auth, adding mapUsers as a sibling of "mapRoles"
+    1.     mapUsers: |
+             - userarn: arn:aws:iam::<your_acct_number>:user/<your_username>
+               username: <your_username>
+               groups:
+                 - system:masters
+1. Save changes
+
 ##### Note: 
 - "After you create and apply user-defined tags to your resources, it can take up to 24 hours for the tags to appear on your Cost Allocation Tags page for activation. After you select your tags for activation, it can take up to 24 hours for tags to activate."
 

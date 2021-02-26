@@ -27,7 +27,7 @@ can benefit from working in an OpenSARlab deployment.
 - Persistent user storage
     - Cost reducing storage management features
 - Customizable server resources (pick your EC2 size)
-- Deployable to other AWS accounts
+- Deployable to other AWS accounts 
 - Developer defined server timeouts (not restricted to 10 minutes of inactivity)
 
 ## How to Access OpenSARlab

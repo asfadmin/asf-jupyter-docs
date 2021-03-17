@@ -13,4 +13,5 @@
 1. [Installing Software in OpenSARlab](guides/installing_software_in_OpenSARlab.md)
 1. [Creating and Using Conda Environments in OpenSARlab](guides/conda_environments.md)
 1. [Logging Out of OpenSARlab and Shutting Down the Server](guides/logging_out_and_server_shutdown.md)
+1. [Developing Class Notebooks: Best Practices](guides/class_notebooks_best_practices.md)
 1. [Troubleshooting Guide](guides/troubleshooting_guide.md)

@@ -16,7 +16,7 @@ Note that pip packages in the .local directory will supersede other versions of 
 Users cannot install software in OpenSARlab using apt or apt-get.
 
 ## conda
-Users can install additional software with conda in OpenSARlab, but it will not persist after the sever shuts down. It will need to be reinstalled during subsequent OpenSARlab sessions. 
+Users can install additional software into the base conda environment in OpenSARlab. Installations in the base environment will not persist after the sever shuts down and will need to be reinstalled during subsequent OpenSARlab sessions. 
 
 **Install conda packages from within a notebook**
 
@@ -26,6 +26,6 @@ Users can install additional software with conda in OpenSARlab, but it will not 
 
 - conda install package_name
 
-Note: it is also possible to [create and use new conda environments in OpenSARlab](conda_environments.md)
+Note: it is also possible to [create and use new conda environments in OpenSARlab](conda_environments.md), which will persist long-term.
 
 
